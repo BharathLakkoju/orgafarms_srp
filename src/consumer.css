@@ -47,14 +47,14 @@ ul {
     margin: 5% auto;
 }
 .s5 {
-    background-image: url("./5.png");
+    background-image: url("../images/5.png");
     background-repeat: no-repeat;
     background-size: 28%;
     background-position: bottom 75% left 95%;
     margin-bottom: 5%;
 }
 .s7 {
-    background-image: url("./7.png");
+    background-image: url("../images/7.png");
     background-repeat: no-repeat;
     background-size: 18%;
     background-position: bottom 90% left 90%;
