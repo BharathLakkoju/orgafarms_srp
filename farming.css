@@ -1,0 +1,123 @@
+.head {
+    font-size: 80px;
+    margin: 5% auto;
+    text-align: center;
+}
+section {
+    margin: 1% 10% 2% 10%;
+}
+.one {
+    margin-top: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.one div {
+    justify-content: center;
+    align-items: center;
+}
+.one div p {
+    text-align: left;
+    font-size: 25px;
+}
+.mini {
+    display: none;
+}
+.bold {
+    font-size: 1.7rem;
+    padding-left: 5%;
+    font-weight: bold;
+}
+.semi-bold {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.image {
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    background-image: url("bg-7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.heading {
+    background-color: transparent;
+    border: 0;
+    font-size: 70px;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    outline: none;
+    text-align: left;
+    transition: all 500ms ease-in-out;
+}
+h3 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+.matter {
+    display: none;
+    overflow: hidden;
+    transition: all 500ms ease-in-out;
+}
+.active, .heading:hover {
+    letter-spacing: 10px;
+    font-size: 100px;
+    font-weight: 700;
+}
+.matter {
+    animation: fadeEffect 3s;
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+footer {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+    .active, .heading:hover {
+        font-size: 70px;
+        font-weight: 800;
+        letter-spacing: 0.25rem;
+    }
+    .image {
+        display: none;
+    }
+    .head {
+        font-size: 60px;
+        margin: 5% auto;
+    }
+    .bold {
+        font-size: 1.7rem;
+        padding-left: 5%;
+        font-weight: bold;
+    }
+    .mini {
+        display: unset;
+        font-size: 28px;
+    }
+    .semi-bold {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    section {
+        min-width: 320px;
+        font-size: 1.4rem;
+        margin: 1% 5% 2% 5%;
+    }
+    html {
+        min-width: 320px !important;
+    }
+}
+@media only screen and (max-width: 1410px) {
+    .mini {
+        display: unset;
+    }
+}
