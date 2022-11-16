@@ -14,7 +14,7 @@
     display: none;
 }
 .semi-bold {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
 }
 .image {
@@ -43,6 +43,9 @@ section {
 ul {
     list-style: inside;
 }
+ul li {
+    font-size: 28px;
+}
 .head {
     font-size: 80px;
     margin: 5% auto;
@@ -70,10 +73,10 @@ footer {
         margin: unset;
     }
     .bold {
-        font-size: 30px;
+        font-size: 32px;
     }
     .semi-bold {
-        font-size: 20px;
+        font-size: 30px;
     }
     .mini {
         display: unset;
