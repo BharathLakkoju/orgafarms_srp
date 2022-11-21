@@ -220,11 +220,6 @@ img {
             display: unset;
         }
 }
-@media only screen and (max-width: 1410px) {
-    .nav_link {
-        display: none;
-    }
-}
 @media only screen and (max-width: 800px) {
     body {
         font-size: 15px;

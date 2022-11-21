@@ -92,7 +92,10 @@ footer {
         background-image: none;
         margin: unset;
     }
-    .mini {
+    .mini, .home {
         display: unset;
+    }
+    .nav_link {
+        display: none;
     }
 }

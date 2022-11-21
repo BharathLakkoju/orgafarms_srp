@@ -119,4 +119,10 @@ footer {
     .mini {
         display: unset;
     }
+    .mini, .home {
+        display: unset;
+    }
+    .nav_link {
+        display: none;
+    }
 }
