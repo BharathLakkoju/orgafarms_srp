@@ -79,7 +79,7 @@ footer {
         font-size: 30px;
     }
     .mini {
-        display: unset;
+        display: unset !important;
         font-size: 28px;
     }
     section {
@@ -93,7 +93,7 @@ footer {
         margin: unset;
     }
     .mini, .home {
-        display: unset;
+        display: unset !important;
     }
     .nav_link {
         display: none;

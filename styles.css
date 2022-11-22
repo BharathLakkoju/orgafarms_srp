@@ -225,7 +225,10 @@ img {
         font-size: 15px;
     }
     .home {
-        display: unset;
+        display: unset !important;
+    }
+    .nav_link {
+        display: none;
     }
     .section1 {
             display: flex;
